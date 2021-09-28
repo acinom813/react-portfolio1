@@ -3,6 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://acinom813.github.io/react-portfolio1/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acinom813/react-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acinom813/react-portfolio/issues"
+  },
   
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
