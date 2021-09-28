@@ -1,38 +1,135 @@
-.App {
-  text-align: center;
+body {
+  font-family:'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  position: relative;
+  min-height: 100%
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  background: rgba(0,0,0,0.6) !important;
+  padding: 20px 0;
+  
+}
+.navbar-dark, .nav-link, .navbar-nav {
+ color: #fff;
+ padding-left: 20px; 
+}  
+.navbar-dark, .nav-link.active, .navbar-nav,
+.navbar-dark, .nav-link, .navbar-nav, hover{
+  color: #1ebba3;
+}
+.heading-content {
+  position: absolute;
+  top: 100%;
+  width: 80%;
+  max-width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.heading-content h4{
+  font-size: 4em;
+  font-weight: 300;
+  color: #fff;
+}
+.heading-content h1{
+  font-size: 5em;
+  font-weight: bolder;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.heading-content p{
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: lighter;
+  color: #fff;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+
+}
+
+.logo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+
+  padding: 10px;
+  color: plum !important;
+}
+
+main {
+  margin: 80px 0;
+}
+
+/* Styling for portfolio.html*/
+
+.post-heading{
+  padding-top: 14px;
+}
+
+.card {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 50px;
+}
+.btn{
+  font-size: 15px;
+  padding-right: 20px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-right: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+#portfolio {
+  padding-top: 80px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#contact {
+  padding-top: 80px;
+}
+
+
+
+
+
+/* ------------------------- */
+/* other styles */
+body, html {
+  height: 100%;
+}
+
+.home-container {
+  /* The image used */
+  background-image: url("https://riskmagazine.nl/f/content-platform/article-cover?id=AWqMNKWrmq8gm25J5_Vp");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#row1 {
+  font-size: 22px;
+}
+
+/* ------------------------- */
+
+.footer {
+  height: 62px;
+  border-top: 6px solid #4aaaa5;
+  margin-top: 3px;
+  background-color: #666;
+  padding-top: 14px;
+  color: #fff;
 }
